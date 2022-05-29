@@ -44,20 +44,21 @@ https://drive.google.com/file/d/1hUdffFjZOhon3Exmka00S2mEGxt_8nOx/view?usp=shari
 ## How to run the ipynb files on google colab?( I have made them using google colab due to my computational limitations.)
 Here we have two .iypnb files (Sentiment_Analysis.ipynb and movie_recommender_systems.ipynb)
 For movie_recommender_systems.ipynb-
-1.When we open these files there will be a button on top for open the file in google colab[click on that].
-2.Simply mount google drive by running the first cell present.
+1. When we open these files there will be a button on top for open the file in google colab[click on that].
+2. Simply mount google drive by running the first cell present.
 ![image](https://user-images.githubusercontent.com/70278261/170864735-5874b98d-6634-45a9-8e7a-ffc36c8f0dd5.png)
-3.Upload the datasets to your google drive(https://github.com/aditya080101/movieflixrec/tree/main/datasets)
-4.provide the path to the cell shown below.
+3. Upload the datasets to your google drive(https://github.com/aditya080101/movieflixrec/tree/main/datasets)
+4. provide the path to the cell shown below.
 ![image](https://user-images.githubusercontent.com/70278261/170864823-1e20774f-c9a9-4499-9a27-3ac0e5af3c94.png)
 ![image](https://user-images.githubusercontent.com/70278261/170864847-84796ed7-ab2e-4aa7-9007-d719ab9d8cf4.png)
 ![image](https://user-images.githubusercontent.com/70278261/170864880-22b5b5ce-6aa0-4ffa-a2d7-e4eff52bed91.png)
+
 Similarly we can run  Sentiment_Analysis.ipynb on google colab
 
 
 ## How to run the ipynb files Locally?
-Download the datasets and Run the movie-recommender-systems using jupyter notebook.ipynb(https://github.com/aditya080101/movieflixrec/blob/main/movie-recommender-systems%20using%20jupyter.ipynb).
-Similarly Run Sentiment_analysis_jupyter.ipynb locally.(https://github.com/aditya080101/movieflixrec/blob/main/Sentiment_analysis_jupyter.ipynb)
+1. Download the datasets and Run the movie-recommender-systems using jupyter notebook.ipynb(https://github.com/aditya080101/movieflixrec/blob/main/movie-recommender-systems%20using%20jupyter.ipynb).
+2. Similarly Run Sentiment_analysis_jupyter.ipynb locally.(https://github.com/aditya080101/movieflixrec/blob/main/Sentiment_analysis_jupyter.ipynb)
 
 
 ## Types of recommender systems-
