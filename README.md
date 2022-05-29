@@ -10,31 +10,18 @@ Content based Movie Recommendation System with sentiment Analysis
 
 
 ![](static/website.png)
+
+# About the Recommender System
+
 Content Based Recommender System recommends movies similar to the movie user likes and analyses the sentiments on the reviews given by the user for that movie.
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
-Check out the live demo: https://mrswsa.herokuapp.com/
+This web application is my submission for the month long challenge to build a video-calling app in Engage'22, a mentorship program conducted by Microsoft.
 
-Link to youtube demo: https://www.youtube.com/watch?v=dhVePtyECFw
+# Video Demo
 
-# Note
 
-> #### Use this URL - https://the-movie-buff.herokuapp.com/ - in case if you see application error in the above mentioned URL
-
-## The Movie Cinema
-
-I've developed a similar application called "The Movie Cinema" which supports all language movies. But the only thing that differs from this application is that I've used the TMDB's recommendation engine in "The Movie Cinema". The recommendation part developed by me in this application doesn't support for multi-language movies as it consumes 200% of RAM (even after deploying it to Heroku) for generating Count Vectorizer matrix for all the 700,000+ movies in the TMDB. 
-
-Link to "The Movie Cinema" application: https://the-movie-cinema.herokuapp.com/
-
-Don't worry if the movie that you are looking for is not auto-suggested. Just type the movie name and click on "enter". You will be good to go eventhough if you made some typo errors.
-
-Source Code: https://github.com/kishan0725/The-Movie-Cinema
-
-## Featured in Krish's Live Session on YouTube
-
-[![krish youtube](https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/static/krish-naik.PNG)](https://www.youtube.com/watch?v=A_78fGgQMjM)
 
 ## How to get the API key?
 
@@ -43,12 +30,25 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 ## How to run the project?
 
 1. Clone or download this repository to your local machine.
-2. Install all the libraries mentioned in the [requirements.txt](https://github.com/kishan0725/Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/requirements.txt) file with the command `pip install -r requirements.txt`
+2. Install all the libraries mentioned in the requirements.txt file with the command `pip install -r requirements.txt`.
 3. Get your API key from https://www.themoviedb.org/. (Refer the above section on how to get the API key)
-3. Replace YOUR_API_KEY in **both** the places (line no. 15 and 29) of `static/recommend.js` file and hit save.
-4. Open your terminal/command prompt from your project directory and run the file `main.py` by executing the command `python main.py`.
-5. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
-6. Hurray! That's it.
+4. Replace 'YOUR_API_KEY' in **both** the places (line no. 23 and 43) of `static/recommend.js` file and hit save.(I have saved my api key for reference)
+5. Open your terminal/command prompt from your project directory and run the file `myapp.py` by executing the command `python myapp.py`.
+6. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
+
+## How to run the ipynb files on google colab?
+Here we have two .iypnb files (Sentiment_Analysis.ipynb and movie_recommender_systems.ipynb) i have made them using google colab due to my computational limitations.
+For movie_recommender_systems.ipynb-
+1.When we open these files there will be a button on top for open the file in google colab[click on that].
+2.Simply mount google drive by running the first cell present.
+![image](https://user-images.githubusercontent.com/70278261/170864735-5874b98d-6634-45a9-8e7a-ffc36c8f0dd5.png)
+3.Upload the datasets to your google drive(https://github.com/aditya080101/movieflixrec/tree/main/datasets)
+4.provide the path to the cell shown below.
+![image](https://user-images.githubusercontent.com/70278261/170864823-1e20774f-c9a9-4499-9a27-3ac0e5af3c94.png)
+![image](https://user-images.githubusercontent.com/70278261/170864847-84796ed7-ab2e-4aa7-9007-d719ab9d8cf4.png)
+![image](https://user-images.githubusercontent.com/70278261/170864880-22b5b5ce-6aa0-4ffa-a2d7-e4eff52bed91.png)
+Similarly we can run  Sentiment_Analysis.ipynb on google colab
+
 
 ## Architecture
 
