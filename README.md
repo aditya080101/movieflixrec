@@ -62,15 +62,15 @@ Similarly we can run  Sentiment_Analysis.ipynb on google colab
 
 
 ## Types of recommender systems-
-1.Content-based filtering uses similarities in products, services, or content features, as well as information accumulated about the user to make recommendations.
-2.Collaborative filtering relies on the preferences of similar users to offer recommendations to a particular user.
+1. Content-based filtering uses similarities in products, services, or content features, as well as information accumulated about the user to make recommendations.
+2. Collaborative filtering relies on the preferences of similar users to offer recommendations to a particular user.
 
 ## Why use content-based filtering?
-1.No data from other users is required to start making recommendations. Unlike collaborative filtering, content-based filtering doesn’t need data from other users to create recommendations. Once a user has searched , a content-based filtering system can begin making relevant recommendations. 
-2.Recommendations are highly relevant to the user. Content-based recommenders can be highly tailored to the user’s interests, including recommendations for niche items, because the method relies on matching the characteristics or attributes of a database object with the user’s profile.
-3.Recommendations are transparent to the user. Highly relevant recommendations project a sense of openness to the user, bolstering their trust level in offered recommendations. Comparatively, with collaborative filtering, instances are more likely to occur where users don’t understand why they see specific recommendations.
-4.You avoid the “cold start” problem. Collaborative filtering creates a potential cold start scenario when a new website or community has few new users and lacks user connections. Although content-based filtering needs some initial inputs from users to start making recommendations, the quality of early recommendations is generally better than a collaborative system that requires the addition and correlation of millions of data points before becoming optimized.
-5.Content-based filtering systems are generally easier to create. The data science behind a content-based filtering system is relatively straightforward compared to collaborative filtering systems intended to mimic user-to-user recommendations. The real work in content-based filtering is assigning the attributes.
+1. No data from other users is required to start making recommendations. Unlike collaborative filtering, content-based filtering doesn’t need data from other users to create recommendations. Once a user has searched , a content-based filtering system can begin making relevant recommendations. 
+2. Recommendations are highly relevant to the user. Content-based recommenders can be highly tailored to the user’s interests, including recommendations for niche items, because the method relies on matching the characteristics or attributes of a database object with the user’s profile.
+3. Recommendations are transparent to the user. Highly relevant recommendations project a sense of openness to the user, bolstering their trust level in offered recommendations. Comparatively, with collaborative filtering, instances are more likely to occur where users don’t understand why they see specific recommendations.
+4. You avoid the “cold start” problem. Collaborative filtering creates a potential cold start scenario when a new website or community has few new users and lacks user connections. Although content-based filtering needs some initial inputs from users to start making recommendations, the quality of early recommendations is generally better than a collaborative system that requires the addition and correlation of millions of data points before becoming optimized.
+5. Content-based filtering systems are generally easier to create. The data science behind a content-based filtering system is relatively straightforward compared to collaborative filtering systems intended to mimic user-to-user recommendations. The real work in content-based filtering is assigning the attributes.
 
 ## Similarity Score : 
 
@@ -85,14 +85,17 @@ Similarly we can run  Sentiment_Analysis.ipynb on google colab
   More about Cosine Similarity : [Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)
   
 ## Features-
-1.The model doesn't need any data about other users, since the recommendations are specific to this user. This makes it easier to scale to a large number of users.
-2.The model can capture the specific interests of a user, and can recommend niche items that very few other users are interested in.
-3.The model gives the whole details about the Movie we want to get Recommendations for.
-4.The model also does Sentiment Analysis on the movies(gives positive and negative sentiments)
-5.The modal also gives the details about the cast of the movies (their Birthday , place of birth and their biography)
-6.Autocomplete Feature has been added in the search bar.it will auto suggest the movie as you type the names of the movie.(If the movie you want isn't auto-suggested as you type, don't worry. Simply enter the title of the film and hit "enter." Even if you make a few typo errors, you'll probably Be fine).
-7.Ajax requests have been used to get the details about the movie and cast to fasten up the loading of web Application.
-8.Clean and Simple UI Design.
+1. The model doesn't need any data about other users, since the recommendations are specific to this user. This makes it easier to scale to a large number of users.
+2. The model can capture the specific interests of a user, and can recommend niche items that very few other users are interested in.
+3. The model gives the whole details about the Movie we want to get Recommendations for.![image](https://user-images.githubusercontent.com/70278261/170868387-effeedac-25de-4aaf-905d-c60230b27abe.png)
+
+4. The model also does Sentiment Analysis on the movies(gives positive and negative sentiments)![image](https://user-images.githubusercontent.com/70278261/170868416-2397330c-5f7b-4c5a-a461-31f2c89065d6.png)
+
+5. The modal also gives the details about the cast of the movies (their Birthday , place of birth and their biography)![image](https://user-images.githubusercontent.com/70278261/170868456-097bf4b8-daf0-4116-9f0e-5d640d33c40c.png)
+
+6. Autocomplete Feature has been added in the search bar.it will auto suggest the movie as you type the names of the movie.(If the movie you want isn't auto-suggested as you type, don't worry. Simply enter the title of the film and hit "enter." Even if you make a few typo errors, you'll probably Be fine).
+7. Ajax requests have been used to get the details about the movie and cast to fasten up the loading of web Application.
+8. Clean and Simple UI Design.
 
 
 ## Layout and flow of the application
@@ -103,33 +106,34 @@ Similarly we can run  Sentiment_Analysis.ipynb on google colab
 
 ## Phase 0-
 The main focus was to :
-1.Decide which project to work on
-2.Get familiar with the technologies and programming languages required for the project .
-3.Develop a rudimentary idea of what features I wanted to include in the application.
+1. Decide which project to work on
+2. Get familiar with the technologies and programming languages required for the project .
+3. Develop a rudimentary idea of what features I wanted to include in the application.
 
 ## Phase 1-
-1.Studying about different types of filtering algorithms.
-2.Develop a content based filtering algorithms using cosine similarity.
-3.sentiment analysis on imdb dataset of 50k movies.
+1. Studying about different types of filtering algorithms.
+2. Making a simple recommendation system and improving it further.
+2. Develop a content based filtering algorithms using cosine similarity.
+3. Sentiment analysis on imdb dataset of 50k movies.
 
 ## Phase 2: 
-1.On acheiving most targets in the previous sprint I went on to integrate all of them in a good UI .
-2.started thinking and implementing more complex features in the app.
+1. On acheiving most targets in the previous sprint I went on to integrate all of them in a good UI .
+2. Started thinking and implementing more complex features in the app.
 
 ## Phase 3:
-2.Added details of the movies.
-3.Added details of the Cast and crew.
-4.scraped reviews of the movies from imdb and did sentiment analysis.
-5.Improving UI of the web application.
+2. Added details of the movies.
+3. Added details of the Cast and crew.
+4. scraped reviews of the movies from imdb and did sentiment analysis.
+5. Improving UI of the web application.
 
  
 
 ## What's next?
-1.Improving the UI design.
-2.Adding the Names of Popular Movies on the home page which I got using Simple Recommender System.
-3.Adding the names of popular Movies based of Genre on home page.
-4.Making a Hybrid Recommendation system which uses both Content filtering and collaborative filtering algorithms.
-5.Improving Sentiment Analysis further to get accurate results.
-6.Get the trailer for the recommended movies.
+1. Improving the UI design.
+2. Adding the Names of Popular Movies on the home page which I got using Simple Recommender System.
+3. Adding the names of popular Movies based of Genre on home page.
+4. Making a Hybrid Recommendation system which uses both Content filtering and collaborative filtering algorithms.
+5. Improving Sentiment Analysis further to get accurate results.
+6. Get the trailer for the recommended movies.
 
 
